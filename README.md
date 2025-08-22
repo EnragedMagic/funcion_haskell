@@ -1,4 +1,5 @@
 # funcion_haskell
+# Funcion Sucesora Haskell
 
 
 | Caso                   | Entrada           | Salida                                   |
@@ -15,20 +16,20 @@
 ---
 # Observaciones
 
-La funcion sucesor (sucesor n = n+1) y la funcion predecesor (predecesor n = n-1) son la base de todas las operaciones.
+- La funcion sucesor (sucesor n = n+1) y la funcion predecesor (predecesor n = n-1) son la base de todas las operaciones.
 
-La suma y la multiplicacion se implementan aplicando sucesivamente el sucesor.
+- La suma y la multiplicacion se implementan aplicando sucesivamente el sucesor.
 
-La resta y la division se implementan aplicando sucesivamente el predecesor.
+- La resta y la division se implementan aplicando sucesivamente el predecesor.
 
-En los enteros, sucesor y predecesor tienen sentido natural.
+- En los enteros, sucesor y predecesor tienen sentido natural.
 
-En los reales, no existe un "sucesor inmediato", por lo que se usa directamente la suma aritmetica.
+- En los reales, no existe un "sucesor inmediato", por lo que se usa directamente la suma aritmetica.
 
-La division por 0 no esta definida y en este proyecto se controla con un error explicito.
+- La division por 0 no esta definida y en este proyecto se controla con un error explicito.
 
-No se puede dividir por 0 porque no existe un resultado valido.
+- No se puede dividir por 0 porque no existe un resultado valido.
 
-Con Int → error en ejecucion (divide by zero).
+  Con Int → error en ejecucion (divide by zero).
 
-Con Float/Double → x/0 da Infinity, y 0/0 da NaN.
+  Con Float/Double → x/0 da Infinity, y 0/0 da NaN.
