@@ -33,3 +33,5 @@
   Con Int → error en ejecucion (divide by zero).
 
   Con Float/Double → x/0 da Infinity, y 0/0 da NaN.
+
+# Hecho por Johan Steven Galeano Gonzalez
