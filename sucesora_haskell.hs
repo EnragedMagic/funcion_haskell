@@ -48,6 +48,7 @@ main = do
     print (restar 10 4)          -- 6
     print (dividir 20 5)         -- 4
     -- print (dividir 5 0)       -- error: Division por cero no definida
+    putStrLn ("4 - 10 = " ++ show (restar 4 10))  -- resultado negativo
 
     putStrLn "Parte 3:"
     print (addReal 3.5 2.7)      -- 6.2
